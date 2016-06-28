@@ -82,4 +82,20 @@ function getArea(rad) {
     return rad * rad * Math.PI;
 }
 
-console.log(getArea(circle.rad));
+console.log(getArea(circle.rad)); 
+
+var numbers = [2,0,6,6,8,5,1,6,2,2];
+
+//Use a forEach loop to sum up the numbers 
+//in the array. Log out this sum.
+var sum = 0;
+numbers.forEach(function(item) {
+    sum += item;
+});
+
+console.log(sum);
+
+
+
+//Use a forEach loop to find the biggest 
+//number in the array. Log out this number.
